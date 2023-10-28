@@ -1,0 +1,260 @@
+
+
+
+  
+.wheel1 {
+    width: 3rem;
+    height: 3rem;
+    background: rgb(50,69,73);
+    background: linear-gradient(103deg, rgba(50,69,73,0.9924399375915527) 20%, rgba(26,30,32,0.9955649375915527) 93%);
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: 21rem;
+    animation: mover 17s linear 0s infinite normal;
+    margin-bottom: 10px;
+    z-index: 2;
+    border: solid .3rem black;
+    animation:rotator 0s liner 0s infinite normal-reverse ;
+    
+  }
+
+  .chimney{
+    height: 80px;
+    width: 50px;
+    background-color: black;
+    margin-left: 22vw;
+z-index: 2;
+    animation: mover 17s linear 0s infinite normal;
+
+  }
+  
+.wheel2 {
+    width: 3rem;
+    height: 3rem;
+    background: rgb(50,69,73);
+    background: linear-gradient(103deg, rgba(50,69,73,0.9924399375915527) 20%, rgba(26,30,32,0.9955649375915527) 93%);
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 10rem;
+    margin-top: 21rem;
+    animation: mover 17s linear 0s infinite normal;
+    z-index: 2;
+    border: solid .3rem black;
+    
+  }
+
+
+  
+
+  
+
+  .compartment1{
+    height: 6rem;
+    position: absolute;
+    border-radius: 10px;
+    width: 15rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+
+
+    margin-left: 0;
+    margin-top: 16rem;
+    animation: mover 17s linear 0s infinite normal;
+    z-index: 1;
+
+  }
+
+  .diameter1{
+    width: 2px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+   margin: 0% 50%;
+   animation: rotateDiameter 4s linear 0s infinite normal ;
+
+  }
+  .diameter2 {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-1px) rotate(180deg);
+    animation: rotateDiameter 4s linear 0s infinite normal ;
+}
+
+
+.main{
+    height: 100vh;
+    width: 100vh;
+}
+
+.al{
+    margin-top: 13rem;
+}
+
+.window1{
+    height: 2rem;
+    width: 4rem;
+    background-color: #0093E9;
+  margin-left: 2rem;
+  margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.window3{
+    height: 2rem;
+    width: 4rem;
+    background-color: #0093E9;
+  margin-left: 6.7rem;
+  margin-top: 1rem;
+    border-radius: 10px;
+}
+.window2{
+    height: 2rem;
+    width: 4rem;
+    background-color: #0093E9;
+    margin: 1rem 3rem;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.engine{
+    height: 130px;
+    width: 170px;
+margin-top: 10vh;
+    margin-left: 10rem;
+    background-color: black;
+    border-radius: 30% 0 0 30%;
+}
+
+
+
+
+.connect{
+    height: 5rem;
+    margin-top: 16.5rem;
+    width: 1.7rem;
+    background-color: black;
+  
+    margin-left: 14rem;
+    animation: mover 17s linear 0s infinite normal;
+
+}
+.connect2{
+    height: 5rem;
+    margin-top: 16.5rem;
+    width: 1.7rem;
+    background-color: black;
+  
+    margin-left: 15rem;
+    animation: mover 17s linear 0s infinite normal;
+
+}
+
+.front{
+    height: 6rem;
+    position: absolute;
+    border-radius: 80% 0 0 0;
+    width: 15rem;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+    margin-left: 0;
+    margin-top: 16rem;
+    animation: mover 17s linear 0s infinite normal;
+
+  }
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/night.jpg');
+    background-attachment: fixed;
+background-size: 100vw 100vh;
+overflow: hidden;
+}
+
+.al{
+    margin-top: 1rem;
+}
+
+.train{
+    background-color:transparent;
+  
+}
+.coch{
+    margin-left: -1.6rem;
+}
+
+.road{
+    width:100vw;
+    height: 1rem;
+    background: rgb(50,69,73);
+    background: linear-gradient(103deg, rgba(50,69,73,0.9924399375915527) 20%, rgba(26,30,32,0.9955649375915527) 93%);
+    margin-top: 2rem;
+
+}
+
+.pillar{
+    height: 30vh;
+    width: 2rem;
+    background: rgb(50,69,73);
+    background: linear-gradient(103deg, rgba(50,69,73,0.9924399375915527) 20%, rgba(26,30,32,0.9955649375915527) 93%);
+    margin-left: 10rem;
+}
+
+
+.light{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-top: 0;
+    margin-left: 2rem;
+}
+
+
+.front h1{
+    font-size: 2rem;
+   margin-left: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+}
+
+
+
+
+
+
+
+@keyframes rotateDiameter {
+    0% {
+      transform: translateX(-1px) rotate(0deg); /* Initial rotation angle */
+    }
+    100% {
+      transform: translateX(-1px) rotate(-360deg); /* Rotate 360 degrees for a full circle */
+    }
+  }
+
+
+
+
+
+@keyframes mover {
+    0% {
+      transform: translateX(100vw);
+    
+    }
+    100% {
+      transform: translateX(0);
+      
+    }
+  }
